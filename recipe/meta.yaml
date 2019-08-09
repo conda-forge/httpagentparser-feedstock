@@ -1,6 +1,6 @@
 {% set name = "httpagentparser" %}
-{% set version = "1.8.2" %}
-{% set sha256 = "77e1d03fb40f1c34afa2d210ed7667dddb5b601efa154513cd08713d17a3aa6c" %}
+{% set version = "1.8.4" %}
+{% set sha256 = "d685c4d71389582b972f617b824cfba873f25923da2c3f1bfce254340c1dbe31" %}
 
 package:
   name: {{ name|lower }}

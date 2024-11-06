@@ -1,6 +1,6 @@
 {% set name = "httpagentparser" %}
-{% set version = "1.8.2" %}
-{% set sha256 = "77e1d03fb40f1c34afa2d210ed7667dddb5b601efa154513cd08713d17a3aa6c" %}
+{% set version = "1.9.2" %}
+{% set sha256 = "a190dfdc5e63b2f1c87729424b19cbc49263d6a1fb585a16ac1c9d9ce127a4bf" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +18,7 @@ build:
 
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -31,6 +31,7 @@ test:
 about:
   home: http://shon.github.com/httpagentparser
   license: MIT
+  license_file: LICENSE.txt
   summary: Extracts OS Browser etc information from http user agent string
   license_family: MIT
   # license_file: LICENSE.txt  # https://github.com/shon/httpagentparser/pull/76
